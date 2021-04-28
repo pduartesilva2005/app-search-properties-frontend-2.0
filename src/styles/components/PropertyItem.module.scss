@@ -1,0 +1,30 @@
+.propertyItemContainer {
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: .25rem;
+
+  img {
+    width: 280px;
+    height: 280px;
+  }
+
+  .propertyInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1.2rem 1rem;
+    
+    strong {
+      font-size: 1.4rem;
+      line-height: 2rem;
+      margin-bottom: 1rem;
+
+      &.price {
+        margin-top: 1rem;
+        color: #450202;
+      }
+    }
+  }
+}
